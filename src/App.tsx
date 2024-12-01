@@ -35,7 +35,6 @@ export default function App() {
     </Header>
     <NewGoal onAddGoal={handleAddGoal}/>
     <CourseGoalList goals={goals} onDeleteGoal={handleDeleteGoal}/>
-    
   </main>
 }
 
